@@ -44,6 +44,9 @@ h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+.text-faded-special {
+  color: #1D809F;
+}
 
 /* Map */
 .map {
@@ -225,6 +228,14 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#gili {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout2.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout2.jpg");
+  padding: 15rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .callout h2 {
   font-size: 3.5rem;
@@ -376,6 +387,10 @@ a:hover, a:focus, a:active {
 
 .bg-primary {
   background-color: #1D809F !important;
+}
+
+.bg-new {
+  background-color: rgb(154, 225, 247) !important;
 }
 
 .text-primary {
